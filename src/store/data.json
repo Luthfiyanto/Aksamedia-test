@@ -1,106 +1,136 @@
 [
   {
-    "id": "PRD1",
-    "title": "Product 1",
+    "id": "PRDC1",
+    "title": "Product 1: Lorem ipsum dolor sit amet",
     "slug": "product-1",
+    "price": 100,
+    "stock": 10,
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis nulla quia ipsa, minima deleniti ut, nam, voluptatem quo tempora nisi odit dicta repudiandae necessitatibus autem? Explicabo, delectus. Incidunt, accusantium cupiditate.",
     "image": "/product1.jpeg"
   },
   {
-    "id": "PRD2",
-    "title": "Product 2",
+    "id": "PRDC2",
+    "title": "Product 2: Lorem ipsum dolor sit amet",
     "slug": "product-2",
+    "price": 100,
+    "stock": 10,
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis nulla quia ipsa, minima deleniti ut, nam, voluptatem quo tempora nisi odit dicta repudiandae necessitatibus autem? Explicabo, delectus. Incidunt, accusantium cupiditate.",
     "image": "/product2.jpeg"
   },
   {
-    "id": "PRD3",
-    "title": "Product 3",
+    "id": "PRDC3",
+    "title": "Product 3: Lorem ipsum dolor sit amet",
     "slug": "product-3",
+    "price": 100,
+    "stock": 10,
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis nulla quia ipsa, minima deleniti ut, nam, voluptatem quo tempora nisi odit dicta repudiandae necessitatibus autem? Explicabo, delectus. Incidunt, accusantium cupiditate.",
     "image": "/product3.jpeg"
   },
   {
-    "id": "PRD4",
-    "title": "Product 4",
+    "id": "PRDC4",
+    "title": "Product 4: Lorem ipsum dolor sit amet",
     "slug": "product-4",
+    "price": 100,
+    "stock": 10,
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis nulla quia ipsa, minima deleniti ut, nam, voluptatem quo tempora nisi odit dicta repudiandae necessitatibus autem? Explicabo, delectus. Incidunt, accusantium cupiditate.",
     "image": "/product4.jpeg"
   },
   {
-    "id": "PRD5",
-    "title": "Product 5",
+    "id": "PRDC5",
+    "title": "Product 5: Lorem ipsum dolor sit amet",
     "slug": "product-5",
+    "price": 100,
+    "stock": 10,
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis nulla quia ipsa, minima deleniti ut, nam, voluptatem quo tempora nisi odit dicta repudiandae necessitatibus autem? Explicabo, delectus. Incidunt, accusantium cupiditate.",
     "image": "/product5.jpeg"
   },
   {
-    "id": "PRD6",
-    "title": "Product 6",
+    "id": "PRDC6",
+    "title": "Product 6: Lorem ipsum dolor sit amet",
     "slug": "product-6",
+    "price": 100,
+    "stock": 10,
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis nulla quia ipsa, minima deleniti ut, nam, voluptatem quo tempora nisi odit dicta repudiandae necessitatibus autem? Explicabo, delectus. Incidunt, accusantium cupiditate.",
     "image": "/product6.jpeg"
   },
   {
-    "id": "PRD7",
-    "title": "Product 7",
+    "id": "PRDC7",
+    "title": "Product 7: Lorem ipsum dolor sit amet",
     "slug": "product-7",
+    "price": 100,
+    "stock": 10,
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis nulla quia ipsa, minima deleniti ut, nam, voluptatem quo tempora nisi odit dicta repudiandae necessitatibus autem? Explicabo, delectus. Incidunt, accusantium cupiditate.",
     "image": "/product7.jpeg"
   },
   {
-    "id": "PRD8",
-    "title": "Product 8",
+    "id": "PRDC8",
+    "title": "Product 8: Lorem ipsum dolor sit amet",
     "slug": "product-8",
+    "price": 100,
+    "stock": 10,
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis nulla quia ipsa, minima deleniti ut, nam, voluptatem quo tempora nisi odit dicta repudiandae necessitatibus autem? Explicabo, delectus. Incidunt, accusantium cupiditate.",
     "image": "/product8.jpg"
   },
   {
-    "id": "PRD9",
-    "title": "Product 9",
+    "id": "PRDC9",
+    "title": "Product 9: Lorem ipsum dolor sit amet",
     "slug": "product-9",
+    "price": 100,
+    "stock": 10,
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis nulla quia ipsa, minima deleniti ut, nam, voluptatem quo tempora nisi odit dicta repudiandae necessitatibus autem? Explicabo, delectus. Incidunt, accusantium cupiditate.",
     "image": "/product9.jpg"
   },
   {
-    "id": "PRD10",
-    "title": "Product 10",
+    "id": "PRDC10",
+    "title": "Product 10: Lorem ipsum dolor sit amet",
     "slug": "product-10",
+    "price": 100,
+    "stock": 10,
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis nulla quia ipsa, minima deleniti ut, nam, voluptatem quo tempora nisi odit dicta repudiandae necessitatibus autem? Explicabo, delectus. Incidunt, accusantium cupiditate.",
     "image": "/product10.jpg"
   },
   {
-    "id": "PRD11",
-    "title": "Product 11",
+    "id": "PRDC11",
+    "title": "Product 11: Lorem ipsum dolor sit amet",
     "slug": "product-11",
+    "price": 100,
+    "stock": 10,
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis nulla quia ipsa, minima deleniti ut, nam, voluptatem quo tempora nisi odit dicta repudiandae necessitatibus autem? Explicabo, delectus. Incidunt, accusantium cupiditate.",
     "image": "/product11.jpg"
   },
   {
-    "id": "PRD12",
-    "title": "Product 12",
+    "id": "PRDC12",
+    "title": "Product 12: Lorem ipsum dolor sit amet",
     "slug": "product-12",
+    "price": 100,
+    "stock": 10,
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis nulla quia ipsa, minima deleniti ut, nam, voluptatem quo tempora nisi odit dicta repudiandae necessitatibus autem? Explicabo, delectus. Incidunt, accusantium cupiditate.",
     "image": "/product12.jpg"
   },
   {
-    "id": "PRD13",
-    "title": "Product 13",
+    "id": "PRDC13",
+    "title": "Product 13: Lorem ipsum dolor sit amet",
     "slug": "product-13",
+    "price": 100,
+    "stock": 10,
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis nulla quia ipsa, minima deleniti ut, nam, voluptatem quo tempora nisi odit dicta repudiandae necessitatibus autem? Explicabo, delectus. Incidunt, accusantium cupiditate.",
     "image": "/product13.jpg"
   },
   {
-    "id": "PRD14",
-    "title": "Product 14",
+    "id": "PRDC14",
+    "title": "Product 14: Lorem ipsum dolor sit amet",
     "slug": "product-14",
+    "price": 100,
+    "stock": 10,
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis nulla quia ipsa, minima deleniti ut, nam, voluptatem quo tempora nisi odit dicta repudiandae necessitatibus autem? Explicabo, delectus. Incidunt, accusantium cupiditate.",
     "image": "/product14.png"
   },
   {
-    "id": "PRD15",
-    "title": "Product 15",
+    "id": "PRDC15",
+    "title": "Product 15: Lorem ipsum dolor sit amet",
     "slug": "product-15",
+    "price": 100,
+    "stock": 10,
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis nulla quia ipsa, minima deleniti ut, nam, voluptatem quo tempora nisi odit dicta repudiandae necessitatibus autem? Explicabo, delectus. Incidunt, accusantium cupiditate.",
     "image": "/product15.png"
   }

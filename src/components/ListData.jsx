@@ -1,12 +1,19 @@
-import Card from "./components/partials/Card";
-import { AppContext } from "./contexts/App.contexts";
-import { useContext, useState } from "react";
+import Card from "../components/partials/Card";
+import { AppContext } from "../contexts/App.contexts";
+import { useContext, useState, useEffect } from "react";
 
 export default function ListData() {
   const { product } = useContext(AppContext);
+  const [currentPage, setCurrentPage] = useState(1);
 
   const itemsPerPage = 7;
-  const [currentPage, setCurrentPage] = useState(1);
+
+  useEffect(() => {
+    const storedPage = localStorage.getItem("currentPage");
+    if (storedPage) {
+      setCurrentPage(parseInt(storedPage));
+    }
+  }, []);
 
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
@@ -16,12 +23,13 @@ export default function ListData() {
 
   const handlePageChange = (newPage) => {
     setCurrentPage(newPage);
+    localStorage.setItem("currentPage", newPage);
   };
   return (
     <>
       <section className="gap-2 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 m-4 p-3">
         {currentItems.map((item, index) => (
-          <Card key={index} title={item.title} description={item.description} image={item.image} />
+          <Card key={index} product={item} />
         ))}
       </section>
 

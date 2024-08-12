@@ -1,4 +1,14 @@
+import { AuthContext } from "../../contexts/Auth.contexts";
+import { useNavigate } from "react-router-dom";
+import { useContext } from "react";
 export default function Menu() {
+  const { logout } = useContext(AuthContext);
+  const navigate = useNavigate();
+
+  const handleLogout = () => {
+    logout();
+    navigate("/login");
+  };
   return (
     <>
       <section className="right-0 absolute border-2 bg-white shadow-sm rounded-l-md w-36">
@@ -15,7 +25,17 @@ export default function Menu() {
           <a href="/setting">
             <li className="sm:hidden menu-item">Setting</li>
           </a>
-          <li className="menu-item">Log out</li>
+
+          <button className="text-left">
+            <li
+              className="menu-item"
+              onClick={() => {
+                handleLogout();
+              }}
+            >
+              Log out
+            </li>
+          </button>
         </ul>
       </section>
     </>
