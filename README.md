@@ -21,3 +21,20 @@ npm install
 ```bash
 npm run dev
 ```
+
+## Credential
+Use these account to sign in:
+email:
+```bash
+aksamedia@sample.com
+```
+or
+```bash
+budisantoso@sample.com
+```
+or add your own data to **/src/store/user.json**
+
+default password:
+```bash
+123456
+```
