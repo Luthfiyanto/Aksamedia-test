@@ -28,17 +28,17 @@ export default function Table() {
   return (
     <>
       <section className="m-5">
-        <h1 className="text-center text-3xl font-bold text-baseblue-300">Product List</h1>
+        <h1 className="text-center text-3xl font-bold text-baseblue-300 dark:text-white">Product List</h1>
       </section>
       <section className="flex justify-center w-full">
         <table className="border sm:w-4/5">
           <thead className="">
             <tr className="border">
-              <th className="p-2 text-baseblue-300 text-center">Product ID</th>
-              <th className="p-2 text-baseblue-300 text-center">Product Name</th>
-              <th className="p-2 text-baseblue-300 text-center">Price</th>
-              <th className="p-2 text-baseblue-300 text-center">Stock</th>
-              <th className="p-2 text-baseblue-300 text-center">Action</th>
+              <th className="p-2 text-baseblue-300 dark:text-white text-center">Product ID</th>
+              <th className="p-2 text-baseblue-300 dark:text-white text-center">Product Name</th>
+              <th className="p-2 text-baseblue-300 dark:text-white text-center">Price</th>
+              <th className="p-2 text-baseblue-300 dark:text-white text-center">Stock</th>
+              <th className="p-2 text-baseblue-300 dark:text-white text-center">Action</th>
             </tr>
           </thead>
           <tbody>
@@ -48,9 +48,9 @@ export default function Table() {
           </tbody>
         </table>
       </section>
-      <section className="flex justify-center m-5">
+      <section className="flex justify-center p-5">
         {Array.from({ length: totalPages }, (_, index) => index + 1).map((page) => (
-          <button key={page} onClick={() => handlePageChange(page)} className="m-2 p-2 border border-blue-800 rounded-md w-10 text-blue-800">
+          <button key={page} onClick={() => handlePageChange(page)} className="m-2 p-2 border border-blue-800 dark:border-zinc-500 dark:text-zinc-500 rounded-md w-10 text-blue-800">
             {page}
           </button>
         ))}

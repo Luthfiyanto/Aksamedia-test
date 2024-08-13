@@ -13,8 +13,8 @@ export default function Menu() {
 
   return (
     <>
-      <section className="right-0 fixed border-2 bg-white shadow-sm rounded-l-md w-36 sm:-translate-y-12">
-        <ul className="flex flex-col gap-1 text-zinc-500">
+      <section className="right-0 fixed border-2 bg-white dark:bg-darkblue shadow-sm dark:shadow-lg dark:shadow-dark border-transparent rounded-l-md w-36 dark:text-white sm:-translate-y-12">
+        <ul className="flex flex-col gap-1 text-zinc-500 dark:text-zinc-200">
           <li className="menu-item">
             <button className="sm:hidden text-left" onClick={() => navigate("/dashboard")}>
               Dashboard

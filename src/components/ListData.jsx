@@ -33,9 +33,9 @@ export default function ListData() {
         ))}
       </section>
 
-      <div className="flex justify-center m-5">
+      <div className="flex justify-center dark:bg-darkblue p-5">
         {Array.from({ length: totalPages }, (_, index) => index + 1).map((page) => (
-          <button key={page} onClick={() => handlePageChange(page)} className="m-2 p-2 border border-blue-800 rounded-md w-10 text-blue-800">
+          <button key={page} onClick={() => handlePageChange(page)} className="dark:border-zinc-500 m-2 p-2 border border-blue-800 rounded-md w-10 text-blue-800 dark:text-zinc-500">
             {page}
           </button>
         ))}

@@ -2,8 +2,8 @@ export default function TableItem({ product, index }) {
   const { id, title, price, stock } = product;
   return (
     <>
-      <tr className={`text-darkblue text-sm ${index % 2 ? "bg-white" : "bg-lightblue"} text-center `}>
-        <td className="p-4 font-medium text-baseblue-300">{id}</td>
+      <tr className={`text-darkblue dark:text-zinc-300 text-sm ${index % 2 ? "bg-white dark:bg-darkblue" : "bg-lightblue dark:bg-dark"} text-center `}>
+        <td className="p-4 font-medium text-baseblue-300 dark:text-zinc-300">{id}</td>
         <td className="p-4">{title}</td>
         <td className="p-4">{price}</td>
         <td className="p-4">{stock}</td>

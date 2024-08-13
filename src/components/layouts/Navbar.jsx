@@ -1,5 +1,6 @@
 import { useRef, useState, useEffect } from "react";
 import Menu from "../partials/Menu";
+import DarkModeToggle from "../partials/ToggleTheme";
 
 export default function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
@@ -27,8 +28,8 @@ export default function Navbar() {
   }, [showMenu]);
   return (
     <>
-      <nav className="top-0 z-30 sticky">
-        <div className="flex justify-between items-center bg-baseblue-100 p-4 text-white">
+      <nav className="top-0 z-30 sticky shadow-md dark:shadow-dark">
+        <div className="flex justify-between items-center bg-baseblue-100 dark:bg-darkblue p-4 text-white">
           <h1 className="font-bold text-xl">Aksastock</h1>
           <ul className="flex gap-2">
             <li className="nav-item">
@@ -56,10 +57,11 @@ export default function Navbar() {
         </div>
       </nav>
       {showMenu && (
-        <div ref={menuRef} className="transition-all ease-in-out">
+        <div ref={menuRef} className="transition-all duration-500 ease-in-out">
           <Menu />
         </div>
       )}
+      <DarkModeToggle />
     </>
   );
 }

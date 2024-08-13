@@ -24,7 +24,7 @@ export default function Manage() {
     <>
       <Navbar />
       <div className="fixed">
-        <div className={`flex ${open ? "" : "-translate-x-96"} transition-all ease-in-out`}>
+        <div className={`flex ${open ? "" : "-translate-x-96"} transition-all ease-in-out duration-500`}>
           <SidebarEdit />
           <div className="flex justify-center items-center">
             <button className="bg-white shadow-md py-7 pr-1 rounded-e-2xl" onClick={() => setOpen(!open)}>

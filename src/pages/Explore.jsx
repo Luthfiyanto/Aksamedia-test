@@ -1,5 +1,5 @@
 import Navbar from "../components/layouts/Navbar";
-import Search from "./Search";
+import Search from "../components/Search";
 import ListData from "../components/ListData";
 import { useNavigate } from "react-router-dom";
 import { AppContext } from "../contexts/App.contexts";

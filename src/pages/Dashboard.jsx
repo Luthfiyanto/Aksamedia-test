@@ -1,4 +1,5 @@
 import Navbar from "../components/layouts/Navbar";
+import DarkModeToggle from "../components/partials/ToggleTheme";
 import { AuthContext } from "../contexts/Auth.contexts";
 import { useContext, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
@@ -19,6 +20,7 @@ export default function Dashboard() {
         <h1 className="m-2 p-4 font-bold text-4xl text-baseblue-200">COMING SOON</h1>
         <p className="max-w-sm text-center text-zinc-500">Dashboard is not available yet. Go to explore and manage product instead.</p>
       </div>
+      <DarkModeToggle />
     </>
   );
 }
