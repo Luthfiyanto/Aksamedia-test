@@ -11,7 +11,7 @@ export default function Menu() {
   };
   return (
     <>
-      <section className="right-0 absolute border-2 bg-white shadow-sm rounded-l-md w-36">
+      <section className="right-0 fixed border-2 bg-white shadow-sm rounded-l-md w-36">
         <ul className="flex flex-col gap-1 text-zinc-500">
           <a href="/dashboard">
             <li className="sm:hidden menu-item">Dashboard</li>
