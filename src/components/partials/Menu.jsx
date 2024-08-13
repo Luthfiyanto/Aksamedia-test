@@ -1,6 +1,7 @@
 import { AuthContext } from "../../contexts/Auth.contexts";
 import { useNavigate } from "react-router-dom";
 import { useContext } from "react";
+
 export default function Menu() {
   const { logout } = useContext(AuthContext);
   const navigate = useNavigate();
@@ -9,33 +10,36 @@ export default function Menu() {
     logout();
     navigate("/login");
   };
+
   return (
     <>
       <section className="right-0 fixed border-2 bg-white shadow-sm rounded-l-md w-36">
         <ul className="flex flex-col gap-1 text-zinc-500">
-          <a href="/dashboard">
-            <li className="sm:hidden menu-item">Dashboard</li>
-          </a>
-          <a href="/explore">
-            <li className="sm:hidden menu-item">Explore</li>
-          </a>
-          <a href="/manage">
-            <li className="sm:hidden menu-item">Manage</li>
-          </a>
-          <a href="/setting">
-            <li className="sm:hidden menu-item">Setting</li>
-          </a>
-
-          <button className="text-left">
-            <li
-              className="menu-item"
-              onClick={() => {
-                handleLogout();
-              }}
-            >
+          <li className="menu-item">
+            <button className="sm:hidden text-left" onClick={() => navigate("/dashboard")}>
+              Dashboard
+            </button>
+          </li>
+          <li className="menu-item">
+            <button className="sm:hidden text-left" onClick={() => navigate("/explore")}>
+              Explore
+            </button>
+          </li>
+          <li className="menu-item">
+            <button className="sm:hidden text-left" onClick={() => navigate("/manage")}>
+              Manage
+            </button>
+          </li>
+          <li className="menu-item">
+            <button className="sm:hidden text-left" onClick={() => navigate("/setting")}>
+              Setting
+            </button>
+          </li>
+          <li className="menu-item">
+            <button className="text-left" onClick={handleLogout}>
               Log out
-            </li>
-          </button>
+            </button>
+          </li>
         </ul>
       </section>
     </>
