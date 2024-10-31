@@ -22,7 +22,7 @@ npm install
 npm run dev
 ```
 
-## Credential
+## Credentials
 Use these account to sign in:
 email:
 ```bash
